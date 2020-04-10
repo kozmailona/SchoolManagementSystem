@@ -2,7 +2,7 @@ package org.fasttrackit;
 
 import java.time.LocalDate;
 
-public class Common {
+public abstract class Common {
 
     String fullName;
     String gender;
@@ -12,6 +12,10 @@ public class Common {
     LocalDate birthday;
     int age;
     int employeeID;
+
+    public void login() {}
+
+    public void logout() {}
 
     //photo;
 }

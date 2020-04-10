@@ -1,4 +1,4 @@
 package org.fasttrackit;
 
-public class Parents {
+public class Parents extends Common {
 }
