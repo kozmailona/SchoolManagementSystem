@@ -1,9 +1,7 @@
 package org.fasttrackit;
 
-public class Subjects {
+public class SubjectInfo {
 
     int subjectID;
     String subjectName;
-
-    public void displaySubject() {}
 }

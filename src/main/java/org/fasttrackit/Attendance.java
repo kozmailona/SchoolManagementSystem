@@ -1,11 +1,37 @@
 package org.fasttrackit;
 
 import java.time.LocalDate;
+import java.util.Scanner;
 
 public class Attendance {
 
-    boolean present;
-    LocalDate date;
+    //vagy intben cimkezni?
 
+    private boolean present = true;
+    private boolean absent = false;
+    private LocalDate date;
 
+    public boolean isPresent() {
+        return present;
+    }
+
+    public void setPresent(boolean present) {
+        this.present = present;
+    }
+
+    public boolean isAbsent() {
+        return absent;
+    }
+
+    public void setAbsent(boolean absent) {
+        this.absent = absent;
+    }
+
+    public LocalDate getDate() {
+        return date;
+    }
+
+    public void setDate(LocalDate date) {
+        this.date = date;
+    }
 }

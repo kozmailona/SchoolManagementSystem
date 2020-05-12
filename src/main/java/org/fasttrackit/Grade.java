@@ -1,7 +1,7 @@
 package org.fasttrackit;
 
-public class Grades {
+public class Grade {
 
+    int id;
     int grade;
-
 }
