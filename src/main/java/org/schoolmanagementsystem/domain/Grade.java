@@ -1,4 +1,4 @@
-package org.fasttrackit;
+package org.schoolmanagementsystem.domain;
 
 public class Grade {
 

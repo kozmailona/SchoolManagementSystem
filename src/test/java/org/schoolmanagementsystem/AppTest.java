@@ -1,4 +1,4 @@
-package org.fasttrackit;
+package org.schoolmanagementsystem;
 
 import static org.junit.Assert.assertTrue;
 

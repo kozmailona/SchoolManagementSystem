@@ -1,7 +1,6 @@
-package org.fasttrackit;
+package org.schoolmanagementsystem.domain;
 
 import java.time.LocalDate;
-import java.util.Scanner;
 
 public class Attendance {
 
