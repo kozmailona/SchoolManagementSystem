@@ -11,6 +11,12 @@ public class Attendance {
     private boolean absent = false;
     private LocalDate date;
 
+    public Attendance(boolean present, boolean absent, LocalDate date) {
+        this.present = present;
+        this.absent = absent;
+        this.date = date;
+    }
+
     public boolean isPresent() {
         return present;
     }
