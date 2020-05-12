@@ -6,30 +6,20 @@ public class Attendance {
 
     //vagy intben cimkezni?
 
-    private boolean present = true;
-    private boolean absent = false;
+    private boolean isPresent;
     private LocalDate date;
 
-    public Attendance(boolean present, boolean absent, LocalDate date) {
-        this.present = present;
-        this.absent = absent;
+    public Attendance(boolean isPresent, LocalDate date) {
+        this.isPresent = isPresent;
         this.date = date;
     }
 
     public boolean isPresent() {
-        return present;
+        return isPresent;
     }
 
     public void setPresent(boolean present) {
-        this.present = present;
-    }
-
-    public boolean isAbsent() {
-        return absent;
-    }
-
-    public void setAbsent(boolean absent) {
-        this.absent = absent;
+        isPresent = present;
     }
 
     public LocalDate getDate() {
