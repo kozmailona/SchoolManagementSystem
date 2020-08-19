@@ -19,4 +19,5 @@ public class Student extends UserDetails {
     public void setClasses(int classes) {
         this.classes = classes;
     }
+
 }

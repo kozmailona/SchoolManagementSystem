@@ -2,6 +2,7 @@ package org.schoolmanagementsystem.domain;
 
 public class Grade {
 
+
    private int id;
    private int grade;
 

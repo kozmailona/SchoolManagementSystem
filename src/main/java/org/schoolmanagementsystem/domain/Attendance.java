@@ -4,8 +4,6 @@ import java.time.LocalDate;
 
 public class Attendance {
 
-    //vagy intben cimkezni?
-
     private boolean isPresent;
     private LocalDate date;
 
